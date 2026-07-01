@@ -71,7 +71,7 @@ scp myfile.txt ubuntu@54.210.12.34:/home/ubuntu/
 Copies myfile.txt to a remote EC2 instance.<br>
 ✅ Reverse:
 ```sh
-scp -i my-key ubuntu@98.84.100.244:/home/ubuntu/dd.txt
+scp -i my-key ubuntu@98.84.100.244:/home/ubuntu/dd.txt .
 ```
  - Downloads the file from the server to your local machine.
 
